@@ -58,13 +58,14 @@ RedoopForum是一款基于JAVA企业级平台研发的社交管理系统
 
 1. 创建数据库。如使用MySQL，字符集选择为`utf8`或者`utf8mb4`（支持更多特殊字符，推荐）。
 2. 执行数据库脚本。数据库脚本在`jeesns-web/src/main/webapp/database`目录下。
-3. 在eclipse中导入maven项目。点击eclipse菜单`File` - `Import`，选择`Maven` - `Existing Maven Projects`。
+3. 在idea中导入maven项目。
 4. 设置项目编码为utf-8，选择jdk1.7版本或以上，不要选择jre。
 5. 修改数据库连接。打开`/src/main/resources/RedoopForum.propertis`文件，根据实际情况修改`jdbc.url`、`jdbc.user`、`jdbc.password`的值，修改后台路径：`managePath`，如：`managePath=manage`
-6. 编译项目。在eclipse中，右键点击项目名，选择`Run as` - `Maven build...`，`Goals`填入`clean package`，然后点击`Run`，第一次运行需要下载jar包，请耐心等待。
+6. 编译项目。在Idea中，右键点击项目名，选择`Run as` - `Maven build...`，`Goals`填入`clean package`，然后点击`Run`，第一次运行需要下载jar包，请耐心等待。
 7. 部署项目。将项目部署到Tomcat7或以上版本，启动Tomcat。
 
    
 
 "# RedoopForum" 
+
 # technologyForum
